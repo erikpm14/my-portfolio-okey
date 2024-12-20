@@ -17,19 +17,17 @@ export const changeText = () => {
   }
 };
 
-export const Navbar = () => {return`
-<nav>
-<h2>Peter Parker</h2>
-<ul>
-    <li>
-        <a href="#" id="homelink">Home</a>
-    </li>
-    <li>
-        <a href="#" id="projectslink">Projects</a>
-    </li>
-    <li>
-        <button id="themeBtn">☀</button>
-    </li>
-</ul>
-</nav>
-`};
+export const Navbar = () => {
+  return `
+    <nav>
+      <h2>Erik's Portfolio</h2>
+      <ul>
+        <li><a href="#" id="homelink">Home</a></li>
+        <li><a href="#" id="projectslink">Projects</a></li>
+        <li><a href="#" id="contactlink">Contact</a></li>
+        <li><button id="themeBtn">☀</button></li>
+      </ul>
+    </nav>
+    <hr class="divider" /> <!-- Divider debajo del navbar -->
+  `;
+};

@@ -1,5 +1,5 @@
 import "./Divider.css";
 
-export const Divider = () =>{ `
+export const Divider = () =>{return `
 <span class="divider"></span>
 `}

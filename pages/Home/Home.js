@@ -7,7 +7,8 @@ export const Home = () => {
   main.innerHTML = `
     
     <section class="home">
-    <h1>El portfolio de Erik Portillo</h1>
-    <p>Soy un estudiante de DAW con experiencia en proyectos web y aplicaciones. Me apasiona crear soluciones digitales efectivas.</p>
+    <img id=image.home src="/icons/persona-ordenador.jpg" alt="persona-ordenador"/>
+    <p>Soy un estudiante de Desarrollo de Aplicaciones Web (DAW) que compagina sus estudios con la experiencia laboral en proyectos web y aplicaciones. A lo largo de este proceso, he ido adquiriendo habilidades clave que me permiten crear soluciones digitales efectivas. Este es mi pequeño portafolio, donde comparto mis avances, proyectos y logros a medida que continúo aprendiendo y creciendo como desarrollador. Cada proyecto aquí reflejará mi evolución y pasión por la tecnología.</p>
     </section>`;
 };
+
